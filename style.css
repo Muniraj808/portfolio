@@ -1,0 +1,75 @@
+/*navigation bar*/
+.navebar{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    margin: auto;
+}
+.nav-link{
+    padding:5px;
+    margin:3px;
+    text-align: center;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    font-weight: 800;
+}
+/*----home section----*/
+#home{
+    width: 100%;
+    border: none;
+}
+.img-fluid{
+    max-width: 100%;
+    height:auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/*====about as====*/
+#about-us{
+    display: flex;
+    width: 100%;
+}
+#about-us p{
+    text-align: justify;
+}
+/*====skills====*/
+#skill{
+    width: 100%;
+    margin-top: -60px;
+}
+.progress-title{
+    padding: 10px;
+    font-size: medium;
+    color: rgb(14, 118, 238);   
+}
+/*===galery==*/
+#language{
+    width:100%;
+    position: relative;
+    display: flex;
+    margin-top: -60px;
+}
+.cards{
+    width: 18rem;
+}
+.form{
+    margin: 0 10% 0 10%;
+    border-radius: 10px;
+}
+.form .btn{
+    margin-left: 50%;
+}
+#contact{
+    margin-top: -40px;
+}
+body{
+    background-image: url(assets/pexels-madison-inouye-1831234.jpg);
+    background-position: center;
+    background-size: cover;
+}
